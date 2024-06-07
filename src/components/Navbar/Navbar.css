@@ -1,0 +1,100 @@
+
+nav{
+    padding:1px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: white;
+    position: sticky;
+    top:0;
+    z-index: 10;
+    height:70px;
+    
+    
+}
+.nav-left .flex-div{
+    width:30px;
+    margin-right: 25px;
+    height:30px;
+}
+
+
+.nav-left .icon{
+    width: 60px;
+    margin-left: 30px;
+}
+
+.nav-middle .search-box{
+border:1px solid #ccc;
+margin-right: 15px;
+padding:8px 12px;
+border-radius: 25px;
+}
+
+.nav-middle .search-box input{
+    width:400px;
+    border:0;
+    outline: 0;
+    background: transparent;
+}
+.nav-middle .search-box img{
+    width:15px;
+}
+.nav-right img{
+    width:25px;
+    margin-right: 25px;
+}
+.nav-right .user-icon{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    
+    
+}
+
+
+
+button{
+    border: none;
+    background: none;
+}
+@media (max-width:900px){
+    .menu-icon{
+        display: none;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width:30px;
+    }
+    .youtubeicon{
+        height:10px;
+       
+
+    }
+    .nav-middle .search-box input{
+        width:100px;
+    }
+}
+
+.profile-container{
+    position: relative;
+}
+.profile-info{
+    position: absolute;
+    border: 1px solid black;
+    height:250px;
+    width:200px;
+    background-color: rgb(247, 241, 241);
+    right: 0px;
+    border-radius:10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
